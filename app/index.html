@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+  <title>Certificado de Registro Cadastral - CRC</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app-crc.js"></script>
+</head>
+<body>
+  <h1>CRC</h1>
+  <h2>Validação do cadastro de fonecedores pessoa Fisica e Juridica</h2>
+  <h2>Participantes de licitação Pública</h2>
+  
+  <br>
+  <h1>Consultar Fornecedor:</h1>
+  <form id="formulario">
+    <br><label for="cnpj">CNPJ:</label><input type="text" id="cnpj" placeholder="59.456.277/0001-76"></input>
+    <br><label for="receiver">Address:</label><input type="text" id="receiver" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  </form>
+   <br><br><button id="send" onclick="sendCoin()">Enviar CRC</button>
+  <br><br>
+  <span id="status"></span>
+</body>
+</html>
+
