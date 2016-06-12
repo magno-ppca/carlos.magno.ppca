@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>Certificado de Registro Cadastral - CRC </title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+
+<body>
+  <body>
+  <h1>Certificado de Registro Cadastral - CRC</h1>
+  <h2> Pessoas Fisica/Juridica - Licitação.</h2>
+  <h3>CRC 154238: <span class="black"><span id="balance"></span> CONFERÊNCIA e VALIDAÇÃO</span></h3> <br>
+  <h3>Endereço Origem <span class="black"><span id="ddd"></span> </span></h3>
+   <h3>Transação: <span class="black"><span id="conta"></span> </span></h3>
+    <h3>Número bloco <span class="black"><span id="bloco"></span> </span></h3>
+
+  <br>
+  <h1>Envio</h1>
+  <br><label for="amount">CPNJ ou CPF:</label><input type="text" id="amount" placeholder=" digite aqui cnpj ou cpf fornecedor"></input>
+  <br><label for="receiver">Endereço de Envio:</label><input type="text" id="receiver" placeholder="end. blockchain exemplo: 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><br><button id="send" onclick="sendCoin()">Validar e Enviar Transação</button>
+  <br><br>
+  <span id="status"></span>
+</body>
+
+</html>
